@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Sharp Mail Oder - Sales Bonus	
+// Made by Riya Patel
+// Student # 200335493
+// Created on January 29th 2017	
+// A windows form to calculate bonus per employee for each hour worked.
+
 namespace Assignment1
 {
     public partial class MailOrder : Form
@@ -18,7 +24,7 @@ namespace Assignment1
             InitializeComponent();
         }
 
-        // make sure that the hours worked value is between 0 to 160
+        // make sure that the hours worked value is between 0 to 160 
         private void HoursWorked_textBox_TextChanged(object sender, EventArgs e)
         {
             if (!HoursWorked_textBox.Text.Equals(""))
@@ -123,7 +129,7 @@ namespace Assignment1
 
                 SalesBonus_textBox.Text = (hoursWorkedPrecent * totalBonusAmount).ToString("C2");
             }
-            // if one or more of the text boxes has no value
+            // if one or more of the text boxes has no value 
             else
             {
                 MessageBox.Show("Please make sure that you entered\nvalues in the right places.", "Value Missing");
