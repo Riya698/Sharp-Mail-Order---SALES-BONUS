@@ -55,6 +55,7 @@ namespace Assignment1
         }
 
         // change all the labels and buttons to Francais
+        //French radio button even handler
         private void Francais_radioButton_CheckedChanged(object sender, EventArgs e)
         {
             EmpName_label.Text = "Le Nom De L'employé:";
@@ -68,6 +69,7 @@ namespace Assignment1
         }
 
         // change all the labels and buttons to Spanish
+        //spanish radio button event handler
         private void Spanish_radioButton_CheckedChanged(object sender, EventArgs e)
         {
             EmpName_label.Text = "Nombre Del Empleado:";
@@ -81,6 +83,7 @@ namespace Assignment1
         }
 
         // change all the labels and buttons to English
+        //english radio button event handler
         private void English_radioButton_CheckedChanged(object sender, EventArgs e)
         {
             EmpName_label.Text = "Employee's Name:";
